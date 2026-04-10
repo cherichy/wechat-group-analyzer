@@ -1,6 +1,6 @@
 # 微信群成员活跃度分析与清理工具
 
-基于 [Wetrace](http://127.0.0.1:5200) 本地微信数据库 API + 聊天记录 CSV 导出，对微信群进行成员活跃度分析，生成带头像的综合 Excel 花名册，辅助群主进行不活跃成员清理。
+基于 [Wetrace](https://github.com/afumu/wetrace) 本地微信数据库 API + 聊天记录 CSV 导出，对微信群进行成员活跃度分析，生成带头像的综合 Excel 花名册，辅助群主进行不活跃成员清理。
 
 ---
 
@@ -8,7 +8,7 @@
 
 | 依赖 | 说明 |
 |------|------|
-| **Wetrace** | 本地运行，API 地址 `http://127.0.0.1:5200/api/v1` |
+| **[Wetrace](https://github.com/afumu/wetrace)** | 本地运行，API 地址 `http://127.0.0.1:5200/api/v1` |
 | **uv** | Python 包管理器（`scoop install uv`），用于创建本地虚拟环境 |
 | **聊天记录 CSV** | 从 Wetrace 导出的群聊天记录（UTF-8 BOM 编码） |
 | **消息 JSON**（可选） | 从 Wetrace 导出的 `messages_*.json`，用于提取聊天中出现的头像 URL |
