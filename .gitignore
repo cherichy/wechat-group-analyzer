@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Data files (contain personal WeChat data)
+*.csv
+*.xlsx
+*.json
+avatars_cache/
+
+# Output
+*.txt
+
+# OS
+.DS_Store
+Thumbs.db
